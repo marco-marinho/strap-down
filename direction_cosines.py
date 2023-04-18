@@ -15,7 +15,7 @@ def get_direction_cosine(U_1, V_1, U_2, V_2):
     return D_1 @ inv(D_2)
 
 
-def get_direction_cosine_single(U_1, U_2):
+def get_direction_cosine_single(U_2, U_1):
     U_1 = np.array(U_1)
     U_2 = np.array(U_2)
     V = norm(U_1)
